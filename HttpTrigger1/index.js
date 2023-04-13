@@ -579,17 +579,17 @@ function menu_de_estados() {
     if (mensaje == "TAMAULIPAS") {
         sendCiuMenu(phone_number_id, WHATSAPP_TOKEN, from);
     } else if (mensaje == "NUEVO LEON") {
-        context.log("ENTRO A NL");
+        console.log("ENTRO A NL");
     }
     else if (mensaje == "COAHUILA") {
-        context.log("COAHUILA");
+        console.log("COAHUILA");
     }
     else if (mensaje == "REYNOSA") {
-        context.log("ENTRO A REYNOSA");
+        console.log("Menu de REYNOSA");
         sendSucReynosa(phone_number_id, WHATSAPP_TOKEN, from);
     }
     else if (mensaje == "RIO BRAVO") {
-        context.log("ENTRO A rb");
+        console.log("ENTRO A rb");
     }
 }
 
